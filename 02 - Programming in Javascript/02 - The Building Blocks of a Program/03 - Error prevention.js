@@ -6,23 +6,23 @@ function addTwoNums(a, b)
         {
             if(typeof(b) == "number")
             {
-                console.log(a+b)
+                console.log(a+b);
             }
             else
             {
-                throw new ReferenceError("The second argument is not a number")
+                throw new ReferenceError("The second argument is not a number");
             }
         }
         else
         {
-            throw new ReferenceError("The first argument is not a number")
+            throw new ReferenceError("The first argument is not a number");
         }
 	}
 	catch(err)
 	{
-		console.log(err)
+		console.log(err);
 	}
 }
 
-addTwoNums(5, "5")
-console.log("It still works")
+addTwoNums(5, "5");
+console.log("It still works");

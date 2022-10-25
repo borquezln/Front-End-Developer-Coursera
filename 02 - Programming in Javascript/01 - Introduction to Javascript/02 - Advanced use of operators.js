@@ -1,5 +1,5 @@
-var score = 8
-console.log("Mid-level skills:", score > 0 && score < 10)
+var score = 8;
+console.log("Mid-level skills:", score > 0 && score < 10);
 
 var timeRemaining = 1;
 var energy = 10;
@@ -14,14 +14,14 @@ var result2 = test2 == 0;
 console.log("Is", num1, "an even number?", result1);
 console.log("Is", num2, "an even number?", result2);
 
-console.log(5+10)
+console.log(5+10);
 
 var now = "Now in ";
 var three = 3;
 var d = "D!";
-console.log(now + three + d)
+console.log(now + three + d);
 
-var counter = 0
-counter += 5
-counter += 3
-console.log(counter)
+var counter = 0;
+counter += 5;
+counter += 3;
+console.log(counter);

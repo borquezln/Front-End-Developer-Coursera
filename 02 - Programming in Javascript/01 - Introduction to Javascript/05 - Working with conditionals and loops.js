@@ -2,19 +2,19 @@ for(var i=1; i<11; i++)
 {
     if(i==1)
     {
-        console.log("Gold medal")
+        console.log("Gold medal");
     }
     else if(i==2)
     {
-        console.log("Silver medal")
+        console.log("Silver medal");
     }
     else if(i==3)
     {
-        console.log("Bronze medal")
+        console.log("Bronze medal");
     }
     else
     {
-        console.log(i)
+        console.log(i);
     }
 }
 
@@ -23,15 +23,15 @@ for(var i=1; i<11; i++)
     switch(i)
     {
         case 1:
-            console.log("Gold medal")
-            break
+            console.log("Gold medal");
+            break;
         case 2:
-            console.log("Silver medal")
-            break
+            console.log("Silver medal");
+            break;
         case 3:
-            console.log("Bronze medal")
-            break
+            console.log("Bronze medal");
+            break;
         default:
-            console.log(i)
+            console.log(i);
     }
 }
