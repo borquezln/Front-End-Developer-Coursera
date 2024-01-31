@@ -1,16 +1,19 @@
-function App() {
-  function handleClick() {
-    let randomNum = Math.floor(Math.random() * 3) + 1;
-    console.log(randomNum);
-    let userInput = prompt('type a number'); 
-    alert(`Computer number: ${randomNum}, Your guess: ${userInput}`);
-  }
-  
-  return (
-    <div>
-      <h1>Task: Add a button and handle a click event</h1>
+import React from "react";
+import Fruits from "./Fruits";
+import FruitsCounter from "./FruitsCounter";
 
-      <button onClick={handleClick}>Adivine el número entre 1 y 3</button>
+function App() {
+  const [fruits] = React.useState([
+    { fruitName: "apple", id: 1 },
+    { fruitName: "apple", id: 2 },
+    { fruitName: "plum", id: 3 },
+  ]);
+
+  return (
+    <div className="App">
+      <h1>Where should the state go?</h1>
+      <Fruits fruits={fruits}/>
+      <FruitsCounter fruits={fruits}/>
     </div>
   );
 }
